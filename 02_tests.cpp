@@ -2,6 +2,12 @@
 
 // Source : https://google.github.io/googletest/primer.html
 
+// ===========================================
+// |                                         |
+// |               ASSERTIONS                |
+// |                                         |
+// ===========================================
+
 // Lists the assertion macros provided by GoogleTest for verifying code 
 // behavior
 // NOTE : The below list contains highly useful macros, refer official site 
@@ -42,7 +48,7 @@ TEST(BooleanConditionSuite, FalseTest)
 }
 
 // ==============================
-//	 Binary Comparison
+//		Binary Comparison
 // ==============================
 
 // EXPECT_EQ( val1, val2 )
@@ -65,7 +71,7 @@ TEST(BinaryComparisionSuite, NonEqualityTest)
 // EXPECT_GE( val1, val2 )	evaluates	val1 >= val2
 
 // ==============================
-//	 String Comparison
+//		String Comparison
 // ==============================
 
 // String data type can be of 2 types : std::string and C-type strings
@@ -112,7 +118,7 @@ TEST(StringcomparisionSuite, CStringNotEqualTest)
 // EXPECT_STRCASENE( str1, str2 )
 
 // ===================================
-//      Floating-Point Comparision
+//		Floating-Point Comparision
 // ===================================
 
 // Verifies that the two float values val1 and val2 are approximately equal, 
@@ -136,7 +142,7 @@ TEST(FloatComparisionSuite, FloatEqualTest)
 // EXPECT_NEAR( val1, val2, abs_error)
 
 // ===================================
-//         Exception Assertion
+//		  Exception Assertion
 // ===================================
 
 // Pre-requisites
@@ -172,7 +178,7 @@ TEST(ExceptionAssertionSuite, ExpectNoExceptionTest)
 }
 
 // ===================================
-//	    Predicate Assertions
+//		  Predicate Assertions
 // ===================================
 
 // Verifies that the predicate pred returns true when passed 
@@ -204,7 +210,7 @@ TEST(PredicateAssertionSuite, OneParamFailTest)
 }
 
 // ===================================
-//	    Death Assertions
+//		   Death Assertions
 // ===================================
 
 // Verifies that statement causes the process to terminate with a nonzero 
